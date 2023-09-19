@@ -1,0 +1,66 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+h1 {
+	color: teal;
+}
+h2{
+	color: teal;
+}
+label {
+	float: left;
+	width: 6em;
+	margin-bottom: 0.5em;
+}
+input[type="text"], input[type="email"] {
+	width: 15em;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+br {
+	clear: both;
+}
+#submit {
+	margin-left: 0.5em;
+	position: relative;
+	top: 20px;
+	margin-left: -200px;
+}
+div {
+	text-align: left;
+}
+
+.contact-label {
+	display: inline-block;
+	width: 200px;
+}
+
+select {
+	display: inline-block;
+	width: auto;
+	vertical-align: top;
+	margin-left: 10px;
+}
+.radio-group {
+	display: flex;
+	align-items: center;
+}
+
+.radio-group input[type="radio"] {
+	margin-right: 10px;
+}
+form {
+	width: 33%;
+	margin: 0 auto;
+	float: left;
+}
+.horizontal-container label,
+.horizontal-container input {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Demo_Html_Css:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Demo_Html_Css_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Demo_Html_Css" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Demo_Html_Css/web/Web" />
+    </root>
+  </artifact>
+</component>
